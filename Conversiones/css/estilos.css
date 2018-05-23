@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+.googlefonts {
+    font-family: 'Philosopher', sans-serif;
+}
+
+header {
+    background: black;
+    color: #fff;
+}
+.titulo1 {
+    margin-top: -35px;
+    margin-bottom: 15px;
+}
+.select {
+    background-color: #263648;
+    color: #fff;
+    font-size: 20px;
+    width: 77%;
+    height: 35px;
+    text-align: center;
+    margin-top: -80px;
+    margin-bottom: 10px;
+}
+.select2 {
+    background-color: #263648;
+    color: #fff;
+    font-size: 20px;
+    width: 75%;
+    height: 35px;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titulo2 {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.container2 {
+    background: lightblue;
+    border: 7px double black;
+    width: 45%;
+    padding: -35px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.entrada1 {
+    font-size: 20px;
+    width: 88%;
+    text-align: center;
+    padding: 10px;
+    margin-right: -54px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.entrada2 {
+    font-size: 20px;
+    width: 88%;
+    text-align: center;
+    padding: 10px;
+    margin-left: -54px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.simbolo {
+    width: 23%;
+    padding: 7px;
+    margin-top: -11px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+}
+/*.containerselect {
+    border: 1px solid red;
+}

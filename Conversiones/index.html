@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Conversión Unidades</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/estilos.css">
+</head>
+<style>
+    body {
+    background-image: url("fd.jpg");
+    background-repeat: repeat;
+}
+</style>
+<body>
+    <header>
+        <div class="container googlefonts">
+            <h1>Conversión de Unidades</h1>
+        </div>
+    </header>
+<div class="container2 ">
+<div class="row googlefonts">
+    <div class="col-lg-12 titulo1 containerselect"> 
+        <h1 class="mt-5 text-center">Tipo de Unidad de Medida</h1>
+</div>
+<div class="col-lg-12 containerselect" style="text-align: center"> 
+    <select class="select" id="units" onchange="populate(this.id,'valueOne'); populate(this.id,'valueTwo')">
+            <option >Seleccionar Una Opción</option>
+            <option value="area">Área</option>
+            <option value="energia">Energía</option>
+            <option value="longitud">Longitud</option>
+            <option value="masa">Masa</option>
+            <option value="presion">Presión</option>
+            <option value="temperatura">Temperatura</option>
+            <option value="tiempo">Tiempo</option>
+            <option value="volumen">Volumen</option>
+      </select>
+    </div>
+    <div class="col-lg-12  titulo2 containerselect"> 
+            <h3 style="align-content: center">Conversión</h3>
+    </div>
+    <div class="col-md-5 col-sm-5 col-xs-5 col-lg-5 text-right" > 
+            <input class="entrada1" type="number" id="inputOne"></input>
+        </div>
+    <div class="col-md-2 col-sm-2 col-xs-2 col-lg-2 simbolo text-center"> 
+        <p>=</p>
+    </div>
+    <div class="col-md-5 col-sm-5 col-xs-5 col-lg-5 text-left" > 
+        <input class="entrada2" type="text" id="inputTwo" placeholder="Resultado" disabled></input>
+    </div>
+    <div class="col-lg-6 containerselect" style="text-align: right"> 
+        <select class="select2" id="valueOne">
+        </select>
+    </div>
+    <div class="col-lg-6 containerselect" style="text-align: left"> 
+        <select class="select2" id="valueTwo">
+        </select>
+    </div>
+    <br><br>
+    <div class="col-lg-12 text-center" style="text-align: left"> 
+        <button class="btn btn-primary" id="convert">REALIZAR CONVERSIÓN</button>
+    </div>
+    <br><br>
+</div>
+</div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+</html>
+
